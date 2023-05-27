@@ -200,6 +200,18 @@ argon2 = ["argon2-cffi (>=19.1.0)"]
 bcrypt = ["bcrypt"]
 
 [[package]]
+name = "djangorestframework"
+version = "3.14.0"
+description = "Web APIs for Django, made easy."
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+django = ">=3.0"
+pytz = "*"
+
+[[package]]
 name = "flask"
 version = "2.2.2"
 description = "A simple framework for building complex web applications."
@@ -610,6 +622,14 @@ global = ["platformdirs (>=1.4.4)"]
 validation = ["pydantic (>=1.7.4)"]
 
 [[package]]
+name = "pytz"
+version = "2023.3"
+description = "World timezone definitions, modern and historical"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
 name = "replit"
 version = "3.2.5"
 description = "A library for interacting with features of repl.it"
@@ -857,7 +877,7 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.10.0,<3.11"
-content-hash = "6835f74795048f870366f4fd3cd524ca86dca302533ebc365ab81a26dd1f25c1"
+content-hash = "045abf179c9f2559a5323e1e3bc06e2a90a1185a10f1708fa546d5cea676dc32"
 
 [metadata.files]
 aiohttp = []
@@ -876,6 +896,7 @@ colorama = []
 cryptography = []
 debugpy = []
 django = []
+djangorestframework = []
 flask = []
 frozenlist = []
 google-api-core = []
@@ -910,6 +931,7 @@ pyparsing = []
 pyseto = []
 python-lsp-jsonrpc = []
 pytoolconfig = []
+pytz = []
 replit = []
 replit-python-lsp-server = []
 requests = []

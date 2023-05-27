@@ -2,7 +2,7 @@
 
 This project demonstrates how to integrate Google Calendar with a Django application using OAuth2 authentication and Django Rest Framework. It provides a set of Django Rest Framework views that handle the OAuth2 flow and retrieve calendar events from the user's Google Calendar.
 
-The project is configured to run on ReplIt and is hosted [here](https://replit.com/@VyomVerma/Auth0GoogleCalendarIntegration). 
+The project is configured to run on ReplIt and is hosted [here](https://replit.com/@VyomVerma/Auth0GoogleCalendarIntegration). Only few email addresses are allowed as test users as the app is kept in development.
 
 ## Configuration
 
